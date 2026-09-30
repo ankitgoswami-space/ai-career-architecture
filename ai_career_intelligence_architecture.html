@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Indian AI Career & Startup Intelligence</title>
+<style>
+:root{--bg:#07111f;--card:#0d1b2f;--text:#eef6ff;--muted:#9fb1c7;--cyan:#42d9ff;--line:#27415f}
+*{box-sizing:border-box}body{margin:0;padding:28px 16px;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 50% 0,#142c4d,#07111f 50%,#040a12);color:var(--text)}
+.wrap{max-width:850px;margin:auto}.header{text-align:center;margin-bottom:22px}.header h1{font-size:24px;margin:0 0 7px}.header p{margin:0;color:var(--muted);font-size:13px}
+.flow{display:flex;flex-direction:column;align-items:center;gap:10px}.tile{width:min(100%,610px);border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,rgba(18,36,61,.96),rgba(10,23,40,.96));padding:15px 18px;text-align:center;color:var(--text);cursor:pointer;transition:.25s;box-shadow:0 8px 25px #0004}.tile:hover,.tile.active{transform:translateY(-2px) scale(1.01);border-color:var(--cyan);box-shadow:0 0 22px #42d9ff2f}.icon{font-size:23px;margin-right:7px;vertical-align:-2px}.title{font-weight:800;font-size:15px}.sub{font-size:11px;color:var(--muted);margin-top:4px}.arrow{font-size:20px;color:var(--cyan);animation:float 1.6s ease-in-out infinite;text-shadow:0 0 12px #42d9ffb3}.detail{width:min(100%,610px);display:none;border-radius:14px;padding:13px 17px;background:#081322f5;border:1px solid #294563;text-align:left;animation:reveal .22s ease}.detail.open{display:block}.detail h3{font-size:13px;margin:0 0 8px}.detail ul{margin:0;padding-left:20px;color:#c8d6e6;font-size:12px;line-height:1.7}
+@keyframes float{50%{transform:translateY(4px)}}@keyframes reveal{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}@media(max-width:520px){body{padding:18px 10px}.tile,.detail{width:100%}.title{font-size:14px}}@media(prefers-reduced-motion:reduce){.arrow{animation:none}.tile,.detail{transition:none;animation:none}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="header"><h1>🧠 Indian AI Career & Startup Intelligence</h1><p>Interactive system architecture • Click any tile to explore</p></div>
+<div class="flow">
+<button class="tile" data-id="sources"><span class="icon">🌐</span><span class="title">MANY CREDIBLE SOURCES</span><div class="sub">Where the intelligence comes from</div></button>
+<div class="detail" data-detail="sources"><h3>🌐 Source Ecosystem</h3><ul><li>📰 AI & technology news sources</li><li>🇮🇳 Indian AI ecosystem & startup sources</li><li>🏛️ Government / official sources</li><li>🏢 Company announcements & career pages</li><li>🔬 Research & technical sources</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="streams"><span class="icon">📰</span><span class="title">NEWS</span> <span class="icon">💼</span><span class="title">JOB PAGES</span> <span class="icon">🔬</span><span class="title">RESEARCH</span><div class="sub">Three main information streams</div></button>
+<div class="detail" data-detail="streams"><h3>📚 Information Streams</h3><ul><li>📰 <b>News:</b> developments, funding, launches, partnerships, expansion</li><li>💼 <b>Job pages:</b> roles, companies, locations, experience and skill requirements</li><li>🔬 <b>Research:</b> findings, models, benchmarks and technical developments</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="collection"><span class="icon">📥</span><span class="title">COLLECTION</span><div class="sub">Fetch information from selected sources</div></button>
+<div class="detail" data-detail="collection"><h3>📥 Collection Layer</h3><ul><li>🐍 Python HTTP requests</li><li>🕷️ Source-specific scraping / extraction</li><li>📦 Structured raw records</li><li>📅 Source, URL and date tracking</li><li>⚠️ Error handling as the system grows</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="clean"><span class="icon">🧹</span><span class="title">CLEAN + DEDUPLICATE</span><div class="sub">Turn messy web data into reliable records</div></button>
+<div class="detail" data-detail="clean"><h3>🧹 Data Quality Layer</h3><ul><li>Normalize extracted information</li><li>Remove duplicate URLs / records</li><li>Handle malformed or missing data</li><li>Preserve source attribution</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="extract"><span class="icon">🧩</span><span class="title">INFORMATION EXTRACTION</span><div class="sub">Convert pages into structured intelligence</div></button>
+<div class="detail" data-detail="extract"><h3>🧩 Extraction Targets</h3><ul><li>📰 News, jobs and research classification</li><li>🏢 Companies, roles and locations</li><li>🛠️ Skills and experience requirements</li><li>📅 Important dates and opportunity signals</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="intelligence"><span class="icon">🧠</span><span class="title">INTELLIGENCE LAYER</span><div class="sub">Find patterns instead of just collecting articles</div></button>
+<div class="detail" data-detail="intelligence"><h3>🧠 Career Intelligence</h3><ul><li>🔁 Recurring skill requirements</li><li>🏢 Company and role patterns</li><li>📊 Minimum → Required → Preferred skills</li><li>🚀 Emerging skills and hiring signals</li><li>📈 Opportunity and trend analysis</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="outputs"><span class="icon">📈</span><span class="title">TRENDS</span> <span class="icon">🛠️</span><span class="title">SKILLS</span> <span class="icon">🎯</span><span class="title">OPPORTUNITIES</span><div class="sub">Useful outputs for the AI career journey</div></button>
+<div class="detail" data-detail="outputs"><h3>🎯 Intelligence Outputs</h3><ul><li>🌱 What is changing in the Indian AI ecosystem</li><li>🏢 Which companies and roles are appearing</li><li>🛠️ Which skills employers repeatedly mention</li><li>🎯 Which opportunities and developments matter</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="rag"><span class="icon">🤖</span><span class="title">RAG ASSISTANT</span><div class="sub">Ask questions over the collected intelligence</div></button>
+<div class="detail" data-detail="rag"><h3>🤖 Example Questions</h3><ul><li>What AI skills are repeatedly requested in India?</li><li>Which companies are hiring GenAI roles?</li><li>What skills are becoming more common?</li><li>What opportunities appeared recently?</li></ul></div>
+<div class="arrow">↓</div>
+<button class="tile" data-id="frontend"><span class="icon">🖥️</span><span class="title">V6 — FRONTEND / INTELLIGENCE DASHBOARD</span><div class="sub">Final user-facing layer</div></button>
+<div class="detail" data-detail="frontend"><h3>🖥️ Final Dashboard</h3><ul><li>📰 Latest developments</li><li>🏢 Startups and companies hiring</li><li>💼 Active jobs and locations</li><li>🛠️ Skill requirements & emerging skills</li><li>🔬 Research and trends</li><li>🔎 Search, filters and RAG assistant</li></ul></div>
+</div></div>
+<script>
+document.querySelectorAll(".tile").forEach(tile=>tile.addEventListener("click",()=>{const d=document.querySelector('[data-detail="'+tile.dataset.id+'"]'),open=d.classList.contains("open");document.querySelectorAll(".detail.open").forEach(x=>x.classList.remove("open"));document.querySelectorAll(".tile.active").forEach(x=>x.classList.remove("active"));if(!open){d.classList.add("open");tile.classList.add("active")}}));
+</script>
+</body></html>
